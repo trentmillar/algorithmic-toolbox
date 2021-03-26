@@ -4,12 +4,12 @@
 
 #include <iostream>
 
-unsigned int sum(unsigned int augend, unsigned int addend) {
-  return augend + addend;
+int sum(int a, int b) {
+  return a + b;
 }
 
 int main() {
-  unsigned int a, b;
+  int a, b;
   std::cin >> a;
   std::cin >> b;
   std::cout << sum(a, b);
